@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="main.css">
+    <title>The Syracuse conjecture</title>
+</head>
+<body>
+    <h1 class="title">The Syracuse Conjecture</h1>
+    <div class="presentation">
+        The Syracuse conjecture is a simple conjecture that hasn't still been proven to be true.
+        This follows two simple rules :
+        <ul class="ruleConjecture">
+            <li>You choose a number;</li>
+            <li>When the number is even, you divide it by two;</li>
+            <li>when the number is odd, you multiply it by 3 and add 1.</li>
+        </ul>
+        Exemple :
+        You choose the number 6 :
+        6/2 = 3 &#8594; 3*3+1 = 10 &#8594; 5 &#8594; 16 &#8594; 8 &#8594; 4 &#8594; 2 &#8594; 1 &#8594; 4 &#8594; 2 &#8594; ...</br/>
+        <!--&#8594; is an arrow-->
+        There is a infinite sequence that is 4, 2, 1. And that's what the conjecture is all about.</br/>
+        Many mathematicians want to find if ever numbers leads into this loop.
+    </div>
+    </br/></br/>
+    <div class="mathematicalRuleConjecture">
+        <h2 class="subt1">Mathematical way to see the conjecture</h2>
+        u<sub>1</sub> <span class="symb">&#8712;</span> N,</br/>
+        <!--&#8712 is a "belongs to"-->
+        <span class="bracket">{</span>
+        <nav>
+            u<sub>n+1 </sub> = u<sub>n </sub>/2<span> , if u<sub>n </sub> is even</span></br/>
+            u<sub>n+1 </sub> = 3u<sub>n</sub>+1<span> , if u<sub>n </sub> is odd</span></br/>
+        </nav>
+        </br/></br/>
+        for u<sub>1</sub> = 17
+        <table class="u17">
+            <tr>
+                <td>u<sub>1 </sub></td>
+                <td>u<sub>2 </sub></td>
+                <td>u<sub>3 </sub></td>
+                <td>u<sub>4 </sub></td>
+                <td>u<sub>5 </sub></td>
+                <td>u<sub>6 </sub></td>
+                <td>u<sub>7 </sub></td>
+                <td>u<sub>8 </sub></td>
+                <td>u<sub>9 </sub></td>
+                <td>u<sub>10</sub></td>
+                <td>u<sub>11</sub></td>
+                <td>u<sub>12</sub></td>
+                <td>u<sub>13</sub></td>
+                <td>u<sub>14</sub></td>
+                <td>u<sub>15</sub></td>
+                <td>   </td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>52</td>
+                <td>26</td>
+                <td>13</td>
+                <td>40</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>16</td>
+                <td>8</td>
+                <td>4</td>
+                <td>2</td>
+                <td>1</td>
+                <td>4</td>
+                <td>2</td>
+                <td>...</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

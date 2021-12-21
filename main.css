@@ -1,0 +1,47 @@
+body{
+    font-family: Segoe UI (sans-serif);
+    margin: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+div{
+    font-size: 1.4em
+}
+
+.title{
+    text-decoration: underline;
+    font-size: 2.6em;
+}/*Key is here */
+
+.mathematicalRuleConjecture{
+    /*font-family: ;*/
+    font-style: italic;
+}
+
+.subt1, .symb, .bracket, .normal{
+    font-style: normal;
+}
+
+.bracket{
+    font-size: 72px;
+    margin-left: -30px;
+}
+
+nav{
+    position: fixed;    
+    right: 1572px;
+    top: 530px;
+}
+
+td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    line-height: 26px;
+    width: 45%;
+}
+.u17{
+    padding-top: 6px;
+}
