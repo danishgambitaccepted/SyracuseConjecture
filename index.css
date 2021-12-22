@@ -5,6 +5,11 @@ body{
     margin-right: 80px;
     background-color: white;
 }
+
+#github__logo{
+    left: initial;
+}
+
 div{
     font-size: 1.4em
 }
@@ -31,7 +36,7 @@ div{
 nav{
     position: absolute;    
     right: 1582px;
-    top: 530px;
+    top: 630px;
 }
 
 td{
