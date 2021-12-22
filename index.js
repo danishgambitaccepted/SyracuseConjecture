@@ -1,5 +1,6 @@
-window.alert("There's no key in that web site")
+/*window.alert("There's no key in that web site")
 
+let value = 3*/
 function getCollatzConjectureSequence(value) {
     if (value < 1) {
       throw new Error("Only positive numbers are allowed");
