@@ -3,7 +3,7 @@ body{
     margin: 50px;
     margin-left: 80px;
     margin-right: 80px;
-    background-color: rgb(228, 241, 241);
+    background-color: white;
 }
 div{
     font-size: 1.4em
@@ -29,8 +29,8 @@ div{
 }
 
 nav{
-    position: fixed;    
-    right: 1572px;
+    position: absolute;    
+    right: 1582px;
     top: 530px;
 }
 
@@ -45,4 +45,10 @@ table{
 }
 .u17{
     padding-top: 6px;
+}
+
+.binary13{
+    border: 2px solid black;
+    width: 27.5%;
+    font-family: monospace;
 }

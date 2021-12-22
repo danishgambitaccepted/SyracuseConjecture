@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"> </script>
     
     <title>The Syracuse conjecture</title>
 </head>
 <body>
     <h1 class="title">The Syracuse Conjecture</h1>
     <div class="presentation">
-        The Syracuse conjecture is a simple conjecture that hasn't still been proven to be true.
+        The Syracuse conjecture, also called 3n + 1 or Collatz conjecture, is a simple conjecture that hasn't still been proven to be true.
         This follows two simple rules :
         <ul class="ruleConjecture">
             <li>You choose a number;</li>
@@ -20,22 +21,22 @@
         </ul>
         Exemple :
         You choose the number 6 :
-        6/2 = 3 &#8594; 3*3+1 = 10 &#8594; 5 &#8594; 16 &#8594; 8 &#8594; 4 &#8594; 2 &#8594; 1 &#8594; 4 &#8594; 2 &#8594; ...</br/>
-        <!--&#8594; is an arrow-->
-        There is a infinite sequence that is 4, 2, 1. And that's what the conjecture is all about.</br/>
+        6/2 = 3 &#8594; 3*3+1 = 10 &#8594; 5 &#8594; 16 &#8594; 8 &#8594; 4 &#8594; 2 &#8594; 1 &#8594; 4 &#8594; 2 &#8594; ...<br />
+        <!-- &#8594; is an arrow -->
+        There is a infinite sequence that is 4, 2, 1. And that's what the conjecture is all about.<br />
         Many mathematicians want to find if ever numbers leads into this loop.
     </div>
-    </br/></br/>
+    <br /><br />
     <div class="mathematicalRuleConjecture">
         <h2 class="subt1">Mathematical way to see the conjecture</h2>
-        u<sub>1</sub> <span class="symb">&#8712;</span> N,</br/>
+        u<sub>1</sub> <span class="symb">&#8712;</span> N,<br />
         <!--&#8712 is a "belongs to"-->
         <span class="bracket">{</span>
         <nav>
-            u<sub>n+1 </sub> = u<sub>n </sub>/2<span> , if u<sub>n </sub> is even</span></br/>
-            u<sub>n+1 </sub> = 3u<sub>n</sub>+1<span> , if u<sub>n </sub> is odd</span></br/>
+            u<sub>n+1 </sub> = u<sub>n </sub>/2<span> , if u<sub>n </sub> is even</span><br />
+            u<sub>n+1 </sub> = 3u<sub>n</sub>+1<span> , if u<sub>n </sub> is odd</span><br />
         </nav>
-        </br/></br/>
+        <br /><br />
         for u<sub>1</sub> = 17
         <table class="u17">
             <tr>
@@ -75,6 +76,22 @@
                 <td>...</td>
             </tr>
         </table>
+    </div>
+    <div class="binaryWay">
+        <br />
+        The conjecture seen as binary numbers looks much simpler. Taking the exemple of 13,<br />
+        1101 &#8594; 101000 &#8594; 10100 &#8594; 1010 &#8594; 101 &#8594; 10000 &#8594; 1000 &#8594; 100 &#8594; 10 &#8594; 1
+        more casually like this : <br />
+        <pre class="binary13"> 
+             1101
+            <u>1101<b>1</b></u>
+           101<s>000</s>
+          <u>101<b>1</b></u>
+         1<s>0000</s>
+    </pre>
+    </div>
+    <div class="">
+
     </div>
 </body>
 </html>
